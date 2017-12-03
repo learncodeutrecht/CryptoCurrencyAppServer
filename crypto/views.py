@@ -81,3 +81,7 @@ def plot(request):
 def coins(request):
     """Page to show coin plot."""
     return render(request, 'coins.html', {})
+
+
+def home(request):
+    return render(request, 'home.html')

@@ -8,4 +8,5 @@ urlpatterns = [
     # path('', views.index, name='index'),
     url(r'^plot/$', views.plot, name='plot'),
     url(r'^coins/$', views.coins, name='coins'),
+    url(r'^/$', views.home, name='home'),
 ]
