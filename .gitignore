@@ -1,0 +1,9 @@
+__pycache__
+db.sqlite3
+.idea
+
+# virtualenv for django 1
+venv
+
+# virtualenv for django 2
+venv2
